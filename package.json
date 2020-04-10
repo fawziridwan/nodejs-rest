@@ -1,7 +1,7 @@
 {
   "name": "nodejs-rest",
   "version": "1.0.0",
-  "description": "Expess \u001b[D\u001b[D\u001b[D\u001b[Dr\u001b[C\u001b[Cess JS Rest Api",
+  "description": "Express \u001b[D\u001b[D\u001b[D\u001b[Dr\u001b[C\u001b[Cess JS Rest Api",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
@@ -20,9 +20,11 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.7",
     "morgan": "^1.10.0",
-    "multer": "^1.4.2",
-    "nodemon": "^2.0.2"
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.3"
   }
 }

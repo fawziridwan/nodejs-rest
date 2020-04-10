@@ -1,8 +1,9 @@
 {
     "env": {
         "MONGODB_PASSWORD": "yHIrsnL3roSphWSO",
-        "MONGODB_URL": "@node-rest-zqmm5.mongodb.net/test?retryWrites=true&w=majority",
-        "MONGODB_DATABASE": "mongodb://localhost/db_rest-api",
+        "MONGODB_DB": "db_node-rest",
+        "MONGODB_URL": "@node-rest-zqmm5.mongodb.net/test",
+        "MONGODB_SERVER": "mongodb+srv://",
         "JWT_KEY": "secret"
     }
 }

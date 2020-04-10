@@ -10,9 +10,8 @@ const orderRoutes = require('./api/routes/orders');
 const userRoutes = require('./api/routes/users');
 
 mongoose.connect(
-    // process.env.MONGODB_DATABASE,
-    process.env.MONGODB_URL,
-    process.env.MONGODB_PASSWORD, 
+    process.env.MONGODB_SERVER + process.env.MONGODB_DATABASE +':<'+ process.env.MONGODB_PASSWORD + process.env.MONGODB_URL,
+    // process.env.MONGODB_DB,
     {
         keepAlive: 1,
         useNewUrlParser: true,
